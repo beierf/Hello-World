@@ -9,5 +9,15 @@ public class test1 {
         int x = 2;
         System.out.print(x);
         //noch ein Kommentar
+
+        //fehler blalala geht nicht
+
+        int y = x;
+
+        try {
+            double z = y;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
