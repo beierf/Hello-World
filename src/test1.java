@@ -8,6 +8,16 @@ public class test1 {
         System.out.println("I love Cheesecake");
         int x = 2;
         System.out.print(x);
-        //noch ein Kommentar//
+        //noch ein Kommentar
+
+        //fehler blalala geht nicht
+
+        int y = x;
+
+        try {
+            double z = y;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
